@@ -3,7 +3,7 @@
 import SwapiFilms from "./menus/swapi-films";
 import SwapiNotImplementedMenu from "./menus/swapi-notimplemented";
 import SwapiPeople from "./menus/swapi-people";
-import SwapiPlanets from "./menus/swapi-planets";
+
 import { IDictionaryContent } from "@/interfaces/main";
 
 export default function SwapiDisplayer(props: { menu: IDictionaryContent }) {
